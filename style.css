@@ -1,0 +1,456 @@
+*{
+    
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+
+/* -----header---- */
+
+@font-face{
+    font-family: light-text;
+    src: url('/image/Design-set1/Space_Grotesk/SpaceGrotesk-VariableFont_wght.ttf');
+}
+
+@font-face{
+    font-family: bold-font;
+    src: url('/image/Design-set1/Space_Grotesk/static/SpaceGrotesk-Bold.ttf');
+}
+
+header  span{
+    margin-left: 15px;
+    font-family: light-text;
+    font-size: 15px;
+}
+
+.header-section{
+    position: relative;
+    width: 100%;
+    height: 75px;
+    background-color: #032a31;
+    display:flex;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    gap: 72px;
+}
+
+ .location{
+    width: 400px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid gainsboro;
+    
+}
+
+.location-logo{
+    width: 18px;
+    height: 18px;
+    background-image: url('image/Design-set1/Icons/pin.png');
+    background-position: center;
+    background-repeat: no-repeat;
+
+    
+}
+
+.time{
+    width: 400px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    padding-left: 37px;
+    
+}
+
+.time-logo{
+    width: 18px;
+    height: 18px;
+    background-image: url('image/Design-set1/Icons/time.png');
+    background-position: center;
+    background-repeat: no-repeat;
+
+    
+}
+
+.facebook{
+    width: 147px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid gainsboro;
+}
+.facebook-logo{
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-image: url('image/Design-set1/Icons/facebook.png');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.lindien{
+    width: 147px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid gainsboro;
+}
+.linkdien-logo{
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-image: url('image/Design-set1/Icons/facebook.png');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.youtube{
+    width: 147px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid gainsboro;
+}
+.youtube-logo{
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-image: url('image/Design-set1/Icons/youtube.png');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.twitter{
+    width: 147px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.twitter-logo{
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-image: url('image/Design-set1/Icons/twitter.png');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.solical-media{
+    width: 800px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* ----company-description---- */
+
+
+
+.company-name-info{
+    
+    position: relative;
+    width: 100%;
+    height: 90px;
+    gap: 347px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.company-name{
+    width: 200px;
+    height: 90px;
+    background-image: url('image/Design-set1/Images/logo.svg');
+    background-repeat: no-repeat;
+    background-position: center;    
+}
+
+.company-contact-info{
+    width: 800px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.call{
+    width: 300px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: bold-font;
+}
+
+.call-icon{
+    margin-right: 15px;
+    width: 81px;
+    height: 54px;
+    border-radius: 50%;
+    background-image: url('image/Design-set1/Icons/phone.png');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.email{
+    width: 300px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: bold-font;
+    
+}
+
+.email-icon{
+    margin-right: 15px;
+    width: 81px;
+    height: 54px;
+    border-radius: 50%;
+    background-image: url('image/Design-set1/Icons/email.png');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+/* -----nav section---- */
+
+.navigation{
+    height: 80px;
+    width: 100%;
+    background-color: #813d16;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    font-size: large;
+    font-family: bold-font;
+    
+}
+
+.nav-menu{
+    width: 800px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.search-bar{
+    position: relative;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.search-box{
+    width: 300px;
+    height: 40px;
+    border: none;
+    outline: none;
+    padding: 15px;
+    color: #813d16;
+    opacity: 0.5;
+    background-color: white;
+    font-weight: bolder;
+    color: black;
+}
+
+
+
+.search-icon{
+
+    position: absolute;
+    right: 98px;
+    width: 50px;
+    height: 40px;
+    opacity: 0.6;
+    background: url('image/Design-set1/Icons/search.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    /* background: white; */
+    
+}
+
+.banner{
+    position: relative;
+    width:100%;
+    height: 650px;
+    font-family: bold-font;
+    background-image: url('image/Design-set1/banner.jpg') ;
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+    
+    
+
+}
+
+
+
+.overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 650px;
+    background-color: black;
+    opacity: 0.7;
+   
+    
+}
+
+
+.over-content{
+    z-index: 2;
+}
+.Hello{
+    position: absolute;
+    left: 114px;
+    top: 165px;
+    font-size: 100px;
+    color:white;
+
+}
+
+.greeting{
+    position: absolute;
+    left: 114px;
+    top: 255px;
+    font-size: 100px;
+    color:white;
+}
+
+.some-text{
+    position: absolute;
+    left: 114px;
+    top: 385px;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+
+}
+
+.services-button{
+    position: absolute;
+    left: 114px;
+    top: 474px;
+    padding: 20px;
+    outline: none;
+    border: none;
+    color: orangered;
+    width: 200px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.play-button{
+    position: absolute;
+    left: 382px;
+    top: 474px; 
+    width: 60px;
+    height: 60px;
+    background-color: orangered;
+    border-radius: 50%;
+}
+
+.play-icon{
+    position: absolute;
+    left: 14px;
+    top: 14px;
+    height: 30px;
+    width: 30px;
+    background-image: url('image/Design-set1/Icons/play.png');
+    background-position: center;
+    background-size: cover;
+}
+.work{
+    position: absolute;
+    top: 490px;
+    left: 450px;
+    color: white;
+    font-weight: bolder;
+}
+
+
+/* ---tags--- */
+
+.tags{
+    width: 100%;
+    height: 150px;
+    background-color: #032a31;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text{
+    
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 300px;
+    height: 130px;
+    color: white;
+    padding: 50px;
+    font-family: bold-font;
+    font-size: 15px;
+
+    
+}
+
+.st-icon{
+    background-image: url('image/Design-set1/Icons/deadline.png');
+    width: 54px;
+    height: 54px;
+    background-repeat: no-repeat;
+
+}
+
+.price-icon{
+    background-image: url('image/Design-set1/Icons/price.png');
+    width: 54px;
+    height: 54px;
+    background-repeat: no-repeat;
+
+}
+
+.quality-icon{
+    background-image: url('image/Design-set1/Icons/deadline.png');
+    width: 54px;
+    height: 54px;
+    background-repeat: no-repeat;
+
+}
+
+.performence-icon{
+    background-image: url('image/Design-set1/Icons/performance.png');
+    width: 54px;
+    height: 54px;
+    background-repeat: no-repeat;
+
+}
+
+.communication-icon{
+    background-image: url('image/Design-set1/Icons/comms.png');
+    width: 54px;
+    height: 54px;
+    background-repeat: no-repeat;
+}
+
+.support-icon{
+    background-image: url('image/Design-set1/Icons/support.png');
+    width: 54px;
+    height: 54px;
+    background-repeat: no-repeat;
+}
